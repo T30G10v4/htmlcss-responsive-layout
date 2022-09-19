@@ -66,6 +66,7 @@ header nav {
     width: 100%;
     border-radius: var(--border-radius);
     margin-bottom: 3em;
+    
 
     /*DEBUG*/
     min-height: 300px;
@@ -146,6 +147,12 @@ header nav {
 #benefits {
 
     background-color: var(--violet);
+
+}
+
+#benefits .row {
+
+    /* flex-spc-btwn-cntr flex-wrap */
 
 }
 
@@ -274,6 +281,14 @@ footer {
     #benefits {
 
 
+
+    }
+
+    #benefits .row {
+
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
 
     }
 

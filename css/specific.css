@@ -12,7 +12,7 @@
 
 }
 
-/*------COMMON UNCHANGEABLE------*/
+/*---------------------------------------COMMON UNCHANGEABLE-------------------------------------------------------------------*/
 html {
 
     font-family: 'PT Sans', sans-serif;
@@ -24,86 +24,246 @@ html {
 /* COMMON */
 
 /* HEADER */
+header {
+
+
+
+}
 
 /* GET-A-DEMO */
+#get-a-demo {
+
+
+
+}
 
 /* PLANNING */
+#planning {
+
+
+
+}
 
 /* TESTIMONIALS */
+#testimonials {
+
+
+
+}
 
 /* BENEFITS */
+#benefits {
+
+
+
+}
 
 /* ABOUT-US */
+#about-us {
+
+
+
+}
 
 /* CALL-TO-ACTION */
+#call-to-action {
+
+
+
+}
 
 /* FOOTER */
+footer {
+
+
+
+}
 
 /*---------------------------------------MEDIA QUERY (MIN HEIGHT 768)--------------------------------------------------*/
 @media screen and (min-width: 768px) {
     
-/* COMMON */
+    /* COMMON */
 
-/* HEADER */
+    /* HEADER */
+    header {
 
-/* GET-A-DEMO */
 
-/* PLANNING */
 
-/* TESTIMONIALS */
+    }
 
-/* BENEFITS */
+    /* GET-A-DEMO */
+    #get-a-demo {
 
-/* ABOUT-US */
 
-/* CALL-TO-ACTION */
 
-/* FOOTER */
+    }
+
+    /* PLANNING */
+    #planning {
+
+
+
+    }
+
+    /* TESTIMONIALS */
+    #testimonials {
+
+
+
+    }
+
+    /* BENEFITS */
+    #benefits {
+
+
+
+    }
+
+    /* ABOUT-US */
+    #about-us {
+
+
+
+    }
+
+    /* CALL-TO-ACTION */
+    #call-to-action {
+
+
+
+    }
+
+    /* FOOTER */
+    footer {
+
+        
+
+    }
 
 }
 
 /*---------------------------------------MEDIA QUERY (MIN HEIGHT 992)--------------------------------------------------*/
 @media screen and (min-width: 992px) {
 
-/* COMMON */
+    /* COMMON */
 
-/* HEADER */
+    /* HEADER */
+    header {
 
-/* GET-A-DEMO */
 
-/* PLANNING */
 
-/* TESTIMONIALS */
+    }
 
-/* BENEFITS */
+    /* GET-A-DEMO */
+    #get-a-demo {
 
-/* ABOUT-US */
 
-/* CALL-TO-ACTION */
 
-/* FOOTER */
+    }
+
+    /* PLANNING */
+    #planning {
+
+
+
+    }
+
+    /* TESTIMONIALS */
+    #testimonials {
+
+
+
+    }
+
+    /* BENEFITS */
+    #benefits {
+
+
+
+    }
+
+    /* ABOUT-US */
+    #about-us {
+
+
+
+    }
+
+    /* CALL-TO-ACTION */
+    #call-to-action {
+
+
+
+    }
+
+    /* FOOTER */
+    footer {
+
+        
+
+    }
 
 }
 
 /*---------------------------------------MEDIA QUERY (MIN HEIGHT 1200)--------------------------------------------------*/
 @media screen and (min-width: 1200px) {
 
-/* COMMON */
+    /* COMMON */
 
-/* HEADER */
+    /* HEADER */
+    header {
 
-/* GET-A-DEMO */
 
-/* PLANNING */
 
-/* TESTIMONIALS */
+    }
 
-/* BENEFITS */
+    /* GET-A-DEMO */
+    #get-a-demo {
 
-/* ABOUT-US */
 
-/* CALL-TO-ACTION */
 
-/* FOOTER */
+    }
+
+    /* PLANNING */
+    #planning {
+
+
+
+    }
+
+    /* TESTIMONIALS */
+    #testimonials {
+
+
+
+    }
+
+    /* BENEFITS */
+    #benefits {
+
+
+
+    }
+
+    /* ABOUT-US */
+    #about-us {
+
+
+
+    }
+
+    /* CALL-TO-ACTION */
+    #call-to-action {
+
+
+
+    }
+
+    /* FOOTER */
+    footer {
+
+        
+
+    }
 
 }

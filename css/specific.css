@@ -114,6 +114,8 @@ header nav {
 #get-a-demo .col .bottom {
 
     padding-bottom: 0;
+    display: flex;
+    align-items: flex-end;
 
 }
 
@@ -127,6 +129,25 @@ header nav {
 
     background-color: var(--primary-blue);
     color: var(--white);
+
+}
+
+#get-a-demo h3 {
+
+    color: var(--primary-blue);
+
+}
+
+#get-a-demo p {
+
+    color: var(--text-blue);
+
+}
+
+#get-a-demo i {
+
+    font-size: 8rem;
+    color: var(--primary-blue);
 
 }
 
@@ -185,6 +206,7 @@ header nav {
 #testimonials img {
 
     display: block;
+    margin: 0 auto;
     
 }
 

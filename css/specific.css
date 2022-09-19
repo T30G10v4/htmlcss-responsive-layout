@@ -35,6 +35,12 @@ header {
     background-color: var(--primary-blue);
     color: var(--white);
 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+
 }
 
 header nav {
@@ -46,9 +52,39 @@ header nav {
 /* GET-A-DEMO */
 #get-a-demo {
 
+    background-color: var(--white);
 
 
 }
+
+#get-a-demo .row {
+
+    width: 100%;
+
+}
+
+#get-a-demo .col {
+
+    background-color: var(--secondary-blue);
+    width: 100%;
+    border-radius: 30px;
+    margin-bottom: 3em;
+
+    /*DEBUG*/
+    min-height: 300px;
+    border: 1px solid black;
+
+}
+
+#get-a-demo .col .bottom {
+
+    padding-bottom: 0;
+
+}
+
+
+
+
 
 /* PLANNING */
 #planning {
@@ -108,6 +144,31 @@ footer {
     #get-a-demo {
 
 
+
+    }
+
+    #get-a-demo .row {
+
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    #get-a-demo .col {
+
+        width: 30%;
+
+    }
+
+    #get-a-demo .row:first-child .col:first-child {
+
+        width: 65%;
+
+    }
+
+    #get-a-demo .col .bottom p {
+
+        width: 50%;
 
     }
 
@@ -209,6 +270,19 @@ footer {
     #get-a-demo {
 
 
+
+    }
+
+    #get-a-demo .col .bottom p {
+
+        width: 100%;
+
+    }
+
+    #get-a-demo .row:first-child .col:first-child {
+
+        display: flex;
+        justify-content: space-between;
 
     }
 

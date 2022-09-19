@@ -296,6 +296,43 @@ html {
 
 }
 
+.p-top-btm-2em {
+
+  padding: 2em 0;
+
+}
+
+.p-top-btm-3em {
+
+  padding: 3em 0;
+
+}
+
+.p-top-btm-4em {
+
+  padding: 4em 0;
+
+}
+
+.p-top-btm-5em {
+
+  padding: 5em 0;
+
+}
+
+.p-top-btm-6em {
+
+  padding: 6em 0;
+
+}
+
+.p-top-btm-12em {
+
+  padding: 12em 0;
+
+}
+
+
 .p-top-1em {
 
   padding-top: 1em;

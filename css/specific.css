@@ -2,23 +2,108 @@
 /*------VARIABLES------*/
 :root {
 
-    --bg-color-primo: blue;
-    --bg-color-secondo: red;
+    /* COLORS */
+    --primary-blue: #0084fd;
+    --secondary-blue: #b5ddff;
+    --violet: #9792e4;
+    --yellow: #fdc15f;
+    --grey-footer: #333333;
+    --white: white;
 
+}
+
+/*------COMMON UNCHANGEABLE------*/
+html {
+
+    font-family: 'PT Sans', sans-serif;
+
+}
+
+/*---------------------------------------SPECIFIED PARTS BY ID (MOBILE FIRST)--------------------------------------------------*/
+
+/* COMMON */
+
+/* HEADER */
+
+/* GET-A-DEMO */
+
+/* PLANNING */
+
+/* TESTIMONIALS */
+
+/* BENEFITS */
+
+/* ABOUT-US */
+
+/* CALL-TO-ACTION */
+
+/* FOOTER */
+
+/*---------------------------------------MEDIA QUERY (MIN HEIGHT 768)--------------------------------------------------*/
+@media screen and (min-width: 768px) {
     
+/* COMMON */
+
+/* HEADER */
+
+/* GET-A-DEMO */
+
+/* PLANNING */
+
+/* TESTIMONIALS */
+
+/* BENEFITS */
+
+/* ABOUT-US */
+
+/* CALL-TO-ACTION */
+
+/* FOOTER */
+
 }
 
-/*------COMMON PARTS------*/
+/*---------------------------------------MEDIA QUERY (MIN HEIGHT 992)--------------------------------------------------*/
+@media screen and (min-width: 992px) {
 
-/*------SPECIFIED PARTS BY ID------*/
-.primo {
+/* COMMON */
 
-    background-color: var(--bg-color-primo);
+/* HEADER */
+
+/* GET-A-DEMO */
+
+/* PLANNING */
+
+/* TESTIMONIALS */
+
+/* BENEFITS */
+
+/* ABOUT-US */
+
+/* CALL-TO-ACTION */
+
+/* FOOTER */
 
 }
 
-.secondo {
+/*---------------------------------------MEDIA QUERY (MIN HEIGHT 1200)--------------------------------------------------*/
+@media screen and (min-width: 1200px) {
 
-    background-color: var(--bg-color-secondo);
+/* COMMON */
+
+/* HEADER */
+
+/* GET-A-DEMO */
+
+/* PLANNING */
+
+/* TESTIMONIALS */
+
+/* BENEFITS */
+
+/* ABOUT-US */
+
+/* CALL-TO-ACTION */
+
+/* FOOTER */
 
 }

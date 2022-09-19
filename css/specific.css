@@ -9,7 +9,10 @@
     --yellow: #fdc15f;
     --grey-footer: #333333;
     --white: white;
+    --black: black;
 
+    /* BORDER RADIUS */
+    --border-radius: 30px;
 }
 
 /*---------------------------------------COMMON UNCHANGEABLE-------------------------------------------------------------------*/
@@ -67,7 +70,7 @@ header nav {
 
     background-color: var(--secondary-blue);
     width: 100%;
-    border-radius: 30px;
+    border-radius: var(--border-radius);
     margin-bottom: 3em;
 
     /*DEBUG*/
@@ -89,7 +92,30 @@ header nav {
 /* PLANNING */
 #planning {
 
+    background-color: var(--violet);
 
+}
+
+#planning .col {
+
+    color: var(--white);
+
+}
+
+#planning .col img {
+
+    display: block;
+    margin: 0 auto;
+
+}
+
+#planning .col:nth-child(2)
+{
+
+    background-color: var(--white);
+    border-radius: var(--border-radius);
+    color: var(--black);
+    text-align: center;
 
 }
 
@@ -290,6 +316,22 @@ footer {
     #planning {
 
 
+
+    }
+
+    #planning .row {
+
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        
+
+
+    }
+
+    #planning .col {
+
+        width: 45%;
 
     }
 

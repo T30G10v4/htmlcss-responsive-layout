@@ -160,10 +160,6 @@ header nav {
 
 }
 
-
-
-
-
 /* ABOUT-US */
 #about-us {
 
@@ -171,15 +167,15 @@ header nav {
 
 }
 
-#about-us .row .col:first-child {
+#about-us .col img {
 
-    width: 100%;
+    width: 50%;
 
 }
 
-#about-us .row .col:not(first-child) {
+#about-us .col img {
 
-    width: 45%;
+    border-radius: 50%;
 
 }
 
@@ -291,6 +287,19 @@ footer {
     #about-us {
 
 
+
+    }
+
+    #about-us .row {
+
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    #about-us .col img {
+
+        width:100%;
 
     }
 

@@ -58,6 +58,12 @@ html {
 
 }
 
+.flex-wrap {
+
+  flex-wrap: wrap;
+
+}
+
 .justify-content-center {
 
   justify-content: center;
@@ -70,12 +76,27 @@ html {
 
 }
 
+.align-items-end {
+
+  align-items: flex-end;
+
+}
+
 .flex-spc-btwn-cntr
 {
 
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+}
+
+.flex-spc-btwn-strt
+{
+
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
 
 }
 
@@ -164,6 +185,12 @@ html {
 .m-4em {
 
   margin: 4em;
+
+}
+
+.m-top-btm-3em {
+
+  margin: 3em 0;
 
 }
 
@@ -509,6 +536,12 @@ html {
 .col-twelve {
 
   width: 100%;
+
+}
+
+.col-45 {
+
+  width: 45%;
 
 }
 

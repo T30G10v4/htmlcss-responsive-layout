@@ -60,12 +60,6 @@ header nav {
 
 }
 
-#get-a-demo .row {
-
-    width: 100%;
-
-}
-
 #get-a-demo .col {
 
     background-color: var(--secondary-blue);
@@ -84,6 +78,13 @@ header nav {
     padding-bottom: 0;
 
 }
+
+#get-a-demo .col .bottom img {
+
+    display: block;
+
+}
+    
 
 
 
@@ -144,14 +145,41 @@ header nav {
 /* BENEFITS */
 #benefits {
 
-
+    background-color: var(--violet);
 
 }
+
+#benefits .col {
+
+    background-color: var(--white);
+    width: 100%;
+    border-radius: var(--border-radius);
+
+    /*DEBUG*/
+    border: 3px solid black;
+
+}
+
+
+
+
 
 /* ABOUT-US */
 #about-us {
 
 
+
+}
+
+#about-us .row .col:first-child {
+
+    width: 100%;
+
+}
+
+#about-us .row .col:not(first-child) {
+
+    width: 45%;
 
 }
 
@@ -207,8 +235,9 @@ footer {
 
     }
 
-    #get-a-demo .col .bottom p {
+    #get-a-demo .col .bottom img {
 
+        
         width: 50%;
 
     }
@@ -250,10 +279,28 @@ footer {
 
     }
 
+    #benefits .col {
+
+        width: 47.5%;
+
+    }
+
     /* ABOUT-US */
     #about-us {
 
 
+
+    }
+
+    #about-us .row .col:first-child {
+
+        width: 50%;
+
+    }
+
+    #about-us .row .col:not(first-child) {
+
+        width: 45%;
 
     }
 
@@ -330,7 +377,7 @@ footer {
 
     }
 
-    #get-a-demo .col .bottom p {
+    #get-a-demo .col .bottom img {
 
         width: 100%;
 
@@ -377,6 +424,13 @@ footer {
     #benefits {
 
 
+
+    }
+
+    #benefits .col {
+
+        width: 30%;
+        
 
     }
 

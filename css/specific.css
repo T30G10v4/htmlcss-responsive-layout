@@ -5,6 +5,7 @@
     /* COLORS */
     --primary-blue: #0084fd;
     --secondary-blue: #b5ddff;
+    --text-blue: #5a6e7f;
     --violet: #9792e4;
     --yellow: #fdc15f;
     --grey-footer: #333333;
@@ -29,6 +30,42 @@ html {
 
     width: 95%;
     margin: 0 auto;
+
+}
+
+p,
+h4,
+a,
+span {
+
+    font-size: 2rem;
+    margin-bottom: 2em;
+
+}
+
+h2 {
+
+    font-size: 4rem;
+
+}
+
+h3 {
+
+    font-size: 3rem;
+
+}
+
+.btn {
+
+    display: block;
+    padding: 1em;
+    text-align: center;
+    border-radius: var(--border-radius);
+    width: 60%;
+    
+    text-decoration: none;
+
+    
 
 }
 
@@ -85,11 +122,13 @@ header nav {
     display: block;
 
 }
-    
 
+#get-a-demo .btn {
 
+    background-color: var(--primary-blue);
+    color: var(--white);
 
-
+}
 
 /* PLANNING */
 #planning {
@@ -132,15 +171,21 @@ header nav {
 
     background-color: var(--violet);
     border-radius: var(--border-radius);
+    color: var(--white);
 
 }
 
 #testimonials .row .col {
 
-    /*DEBUG*/
-    border: 3px solid black;
+    
     
 
+}
+
+#testimonials img {
+
+    display: block;
+    
 }
 
 /* BENEFITS */
@@ -162,8 +207,7 @@ header nav {
     width: 100%;
     border-radius: var(--border-radius);
 
-    /*DEBUG*/
-    border: 3px solid black;
+    
 
 }
 
@@ -191,6 +235,27 @@ header nav {
 
     background-color: var(--violet);
     text-align: center;
+    color: var(--white);
+
+}
+
+#call-to-action h2 {
+
+    color: var(--yellow);
+
+}
+
+#call-to-action .btn {
+
+    background-color: var(--white);
+    color: var(--violet);
+    margin: 0 auto 2em;
+
+}
+
+#call-to-action span a {
+
+    color: inherit;
 
 }
 
@@ -199,6 +264,13 @@ footer {
 
     background-color: var(--grey-footer);
     text-align: center;
+    color: var(--white);
+
+}
+
+footer a {
+
+    color: var(--violet);
 
 }
 

@@ -186,14 +186,16 @@ header nav {
 /* CALL-TO-ACTION */
 #call-to-action {
 
-
+    background-color: var(--violet);
+    text-align: center;
 
 }
 
 /* FOOTER */
 footer {
 
-
+    background-color: var(--grey-footer);
+    text-align: center;
 
 }
 

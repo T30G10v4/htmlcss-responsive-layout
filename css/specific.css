@@ -122,7 +122,22 @@ header nav {
 /* TESTIMONIALS */
 #testimonials {
 
+    text-align: center;
 
+}
+
+#testimonials .row {
+
+    background-color: var(--violet);
+    border-radius: var(--border-radius);
+
+}
+
+#testimonials .row .col {
+
+    /*DEBUG*/
+    border: 3px solid black;
+    
 
 }
 
@@ -209,6 +224,22 @@ footer {
     #testimonials {
 
 
+
+    }
+
+    #testimonials .row {
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+
+    }
+
+    #testimonials .col  {
+
+        text-align: start;
+        
 
     }
 
@@ -338,7 +369,7 @@ footer {
     /* TESTIMONIALS */
     #testimonials {
 
-
+        
 
     }
 

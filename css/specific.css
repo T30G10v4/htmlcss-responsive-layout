@@ -236,12 +236,6 @@ header a {
 
 }
 
-#benefits .row {
-
-    
-
-}
-
 #benefits .col {
 
     background-color: var(--white);
@@ -261,12 +255,6 @@ header a {
 }
 
 /* ABOUT-US */
-#about-us {
-
-
-
-}
-
 #about-us .col img {
 
     width: 50%;
@@ -330,19 +318,8 @@ footer a {
     /* COMMON */
 
     /* HEADER */
-    header {
-
-
-
-    }
 
     /* GET-A-DEMO */
-    #get-a-demo {
-
-
-
-    }
-
     #get-a-demo .row {
 
         display: flex;
@@ -370,19 +347,8 @@ footer a {
     }
 
     /* PLANNING */
-    #planning {
-
-
-
-    }
 
     /* TESTIMONIALS */
-    #testimonials {
-
-
-
-    }
-
     #testimonials .row {
 
         display: flex;
@@ -407,12 +373,6 @@ footer a {
     }
 
     /* BENEFITS */
-    #benefits {
-
-
-
-    }
-
     #benefits .row {
 
         display: flex;
@@ -428,11 +388,6 @@ footer a {
     }
 
     /* ABOUT-US */
-    #about-us {
-
-
-
-    }
 
     #about-us .row {
 
@@ -460,18 +415,8 @@ footer a {
     }
 
     /* CALL-TO-ACTION */
-    #call-to-action {
-
-
-
-    }
 
     /* FOOTER */
-    footer {
-
-        
-
-    }
 
 }
 
@@ -483,17 +428,10 @@ footer a {
 
         width: 80%;
         margin: 0 auto;
-        max-width: 1200px;
     
     }
 
     /* HEADER */
-    header {
-
-
-
-    }
-
     header .fa-bars {
 
         display: none;
@@ -526,12 +464,6 @@ footer a {
     }
 
     /* GET-A-DEMO */
-    #get-a-demo {
-
-
-
-    }
-
     #get-a-demo .col .bottom img {
 
         width: 100%;
@@ -546,12 +478,6 @@ footer a {
     }
 
     /* PLANNING */
-    #planning {
-
-
-
-    }
-
     #planning .row {
 
         display: flex;
@@ -569,12 +495,6 @@ footer a {
     }
 
     /* TESTIMONIALS */
-    #testimonials {
-
-        
-
-    }
-
     #testimonials img {
 
         width: 10vw;
@@ -583,12 +503,6 @@ footer a {
     }
 
     /* BENEFITS */
-    #benefits {
-
-
-
-    }
-
     #benefits .col {
 
         width: 30%;
@@ -597,25 +511,10 @@ footer a {
     }
 
     /* ABOUT-US */
-    #about-us {
-
-
-
-    }
 
     /* CALL-TO-ACTION */
-    #call-to-action {
-
-
-
-    }
 
     /* FOOTER */
-    footer {
-
-        
-
-    }
 
 }
 
@@ -623,61 +522,26 @@ footer a {
 @media screen and (min-width: 1200px) {
 
     /* COMMON */
+    .container {
+
+        width: 80%;
+        margin: 0 auto;
+        max-width: 1200px;
+
+    }
 
     /* HEADER */
-    header {
-
-
-
-    }
 
     /* GET-A-DEMO */
-    #get-a-demo {
-
-
-
-    }
 
     /* PLANNING */
-    #planning {
-
-
-
-    }
 
     /* TESTIMONIALS */
-    #testimonials {
-
-
-
-    }
-
-    /* BENEFITS */
-    #benefits {
-
-
-
-    }
 
     /* ABOUT-US */
-    #about-us {
-
-
-
-    }
 
     /* CALL-TO-ACTION */
-    #call-to-action {
-
-
-
-    }
 
     /* FOOTER */
-    footer {
-
-        
-
-    }
 
 }
